@@ -1,4 +1,1 @@
 master: localhost
-
-ext_pillar:
-  - git: master git://github.com/ahdinosaur-os/pillar-users-michael.git

@@ -4,3 +4,5 @@ fileserver_backend:
 gitfs_remotes:
   - git://github.com/saltstack-formulas/users-formula.git
 
+ext_pillar:
+  - git: master git://github.com/ahdinosaur-os/pillar-users-michael.git
