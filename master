@@ -5,4 +5,4 @@ gitfs_remotes:
   - https://github.com/saltstack-formulas/users-formula.git
 
 ext_pillar:
-  - git: master https://github.com/ahdinosaur-os/users-michael.git
+  - git: master https://github.com/ahdinosaur-os/pillar-users-michael.git
