@@ -2,6 +2,7 @@ fileserver_backend:
   - git
 
 gitfs_remotes:
+  - git://github.com/ahdinosaur-os/config-white-widow.git
   - git://github.com/saltstack-formulas/users-formula.git
 
 ext_pillar:
