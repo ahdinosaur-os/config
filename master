@@ -6,6 +6,8 @@ gitfs_remotes:
   - git://github.com/saltstack-formulas/users-formula.git
   - git://github.com/ahdinosaur-os/vim-formula.git
   - git://github.com/ahdinosaur-os/tmux-formula.git
+  - git://github.com/ahdinosaur-os/git-formula.git
 
 ext_pillar:
   - git: master git://github.com/ahdinosaur-os/users-pillar.git
+  - git: master git://github.com/ahdinosaur-os/git-pillar.git
