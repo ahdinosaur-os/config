@@ -2,10 +2,10 @@ fileserver_backend:
   - git
 
 gitfs_remotes:
-  - git://github.com/ahdinosaur-os/config-white-widow.git
+  - git://github.com/ahdinosaur-os/config.git
   - git://github.com/saltstack-formulas/users-formula.git
-  - git://github.com/ahdinosaur-os/formula-vim.git
-  - git://github.com/ahdinosaur-os/formula-tmux.git
+  - git://github.com/ahdinosaur-os/vim-formula.git
+  - git://github.com/ahdinosaur-os/tmux-formula.git
 
 ext_pillar:
-  - git: master git://github.com/ahdinosaur-os/pillar-users-michael.git
+  - git: master git://github.com/ahdinosaur-os/users-pillar.git
