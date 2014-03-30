@@ -6,3 +6,4 @@ base:
     - tmux
     - git
     - git.hub
+    - zsh
