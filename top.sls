@@ -5,3 +5,4 @@ base:
     - vim
     - tmux
     - git
+    - git.hub
