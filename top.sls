@@ -4,3 +4,4 @@ base:
     - users.sudo
     - vim
     - tmux
+    - git
