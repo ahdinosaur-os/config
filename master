@@ -8,6 +8,7 @@ gitfs_remotes:
   - git://github.com/ahdinosaur-os/tmux-formula.git
   - git://github.com/ahdinosaur-os/git-formula.git
   - git://github.com/ahdinosaur-os/zsh-formula.git
+  - git://github.com/ahdinosaur-os/packages-formula.git
 
 ext_pillar:
   - git: master git://github.com/ahdinosaur-os/pillar.git
