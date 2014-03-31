@@ -8,3 +8,4 @@ base:
     - git.hub
     - zsh
     - packages
+    - debian
