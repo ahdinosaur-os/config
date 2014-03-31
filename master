@@ -2,15 +2,9 @@ fileserver_backend:
   - git
 
 gitfs_remotes:
-  - git://github.com/ahdinosaur-os/config.git
-  - git://github.com/saltstack-formulas/users-formula.git
-  - git://github.com/ahdinosaur-os/vim-formula.git
-  - git://github.com/ahdinosaur-os/tmux-formula.git
-  - git://github.com/ahdinosaur-os/git-formula.git
-  - git://github.com/ahdinosaur-os/zsh-formula.git
+  - git://github.com/ahdinosaur-os/state.git
   - git://github.com/ahdinosaur-os/packages-formula.git
 
 ext_pillar:
-  - git: master git://github.com/ahdinosaur-os/users-pillar.git
-  - git: master git://github.com/ahdinosaur-os/git-pillar.git
+  - git: master git://github.com/ahdinosaur-os/pillar.git
   - git: master git://github.com/ahdinosaur-os/packages-pillar.git
