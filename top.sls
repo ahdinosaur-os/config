@@ -7,4 +7,3 @@ base:
     - git
     - git.hub
     - zsh
-    - packages
