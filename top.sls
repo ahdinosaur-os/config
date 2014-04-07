@@ -10,3 +10,4 @@ base:
     - packages
     - debian
     - kde
+    - nvm
