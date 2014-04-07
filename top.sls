@@ -11,3 +11,5 @@ base:
     - debian
     - kde
     - nvm
+    - firefox
+    - google-chrome
