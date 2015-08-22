@@ -1,1 +1,22 @@
-master: localhost
+file_client: local
+gitfs_provider: gitpython
+
+fileserver_backend:
+  - git
+
+gitfs_remotes:
+  - git://github.com/ahdinosaur-os/config.git
+  - git://github.com/saltstack-formulas/users-formula.git
+  - git://github.com/ahdinosaur-os/vim-formula.git
+  - git://github.com/ahdinosaur-os/tmux-formula.git
+  - git://github.com/ahdinosaur-os/git-formula.git
+  - git://github.com/ahdinosaur-os/zsh-formula.git
+  - git://github.com/ahdinosaur-os/packages-formula.git
+  - git://github.com/ahdinosaur-os/debian-formula.git
+  - git://github.com/ahdinosaur-os/kde-formula.git
+  - git://github.com/ahdinosaur-os/nvm-formula.git
+  - git://github.com/ahdinosaur-os/firefox-formula.git
+  - git://github.com/ahdinosaur-os/google-chrome-formula.git
+
+ext_pillar:
+  - git: master git://github.com/ahdinosaur-os/pillar.git
