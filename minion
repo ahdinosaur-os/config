@@ -2,6 +2,7 @@ file_client: local
 gitfs_provider: gitpython
 
 fileserver_backend:
+  - roots
   - git
 
 gitfs_remotes:
@@ -17,6 +18,10 @@ gitfs_remotes:
   - git://github.com/ahdinosaur-os/nvm-formula.git
   - git://github.com/ahdinosaur-os/firefox-formula.git
   - git://github.com/ahdinosaur-os/google-chrome-formula.git
+
+file_roots:
+  base:
+    - ./states
 
 ext_pillar:
   - git: master git://github.com/ahdinosaur-os/pillar.git
