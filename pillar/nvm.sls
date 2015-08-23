@@ -3,5 +3,4 @@ nvm:
     home: "/home/michael"
     install:
       - "3"
-    default:
-      - "3"
+    default: "3"
