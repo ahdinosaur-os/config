@@ -17,4 +17,4 @@ fi
 #
 # call
 #
-sudo salt-call --local --config-dir . state.highstate
+sudo salt-call --local --config-dir=./ --file-root=./states --pillar-root=./pillar state.highstate

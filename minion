@@ -5,7 +5,6 @@ fileserver_backend:
   - git
 
 gitfs_remotes:
-  - git://github.com/ahdinosaur-os/config.git
   - git://github.com/ahdinosaur-os/users-formula.git
   - git://github.com/ahdinosaur-os/vim-formula.git
   - git://github.com/ahdinosaur-os/tmux-formula.git
