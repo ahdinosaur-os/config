@@ -3,7 +3,7 @@ zsh:
     home: "/home/dinosaur"
     theme: robbyrussell
     editor: vim
-    lang: en_US.UTF-8
+    lang: en_NZ.UTF-8
     plugins:
       - debian
       - docker
