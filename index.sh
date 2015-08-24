@@ -11,7 +11,12 @@ then
 
   # TODO make it work with other package managers
   # (apt-get, pacman, yum)
-  sudo aptitude install salt-common
+  sudo sh -s <<EOF
+echo "deb http://debian.saltstack.com/debian jessie-saltstack main" > /etc/apt/sources.list.d/saltstack.list
+wget -O - http://debian.saltstack.com/debian-salt-team-joehealy.gpg.key | apt-key add -
+sudo aptitude update
+sudo aptitude install salt-common
+EOF
 fi
 
 #
