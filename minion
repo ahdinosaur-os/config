@@ -16,6 +16,7 @@ gitfs_remotes:
   - git://github.com/ahdinosaur-os/nvm-formula.git
   - git://github.com/ahdinosaur-os/firefox-formula.git
   - git://github.com/ahdinosaur-os/google-chrome-formula.git
+  - git://github.com/ahdinosaur-os/heroku-toolbelt-formula.git
 
 file_roots:
   base:

@@ -13,3 +13,4 @@ base:
     - nvm
     - firefox
     - google-chrome
+    - heroku-toolbelt
