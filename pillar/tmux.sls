@@ -1,6 +1,6 @@
 tmux:
-  michael:
-    home: "/home/michael"
+  dinosaur:
+    home: "/home/dinosaur"
   conf: |
     set -g default-terminal "screen-256color"
     set-window-option -g utf8 on

@@ -1,6 +1,6 @@
 vim:
-  michael:
-    home: "/home/michael"
+  dinosaur:
+    home: "/home/dinosaur"
     bundles:
       - 'terryma/vim-multiple-cursors'
       - 'spf13/vim-autoclose'

@@ -1,5 +1,5 @@
 users:
-  michael:
+  dinosaur:
     fullname: Michael Williams
     sudouser: True
     groups:

@@ -1,6 +1,6 @@
 zsh:
-  michael:
-    home: "/home/michael"
+  dinosaur:
+    home: "/home/dinosaur"
     theme: robbyrussell
     editor: vim
     lang: en_US.UTF-8

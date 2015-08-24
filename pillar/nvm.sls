@@ -1,6 +1,6 @@
 nvm:
-  michael:
-    home: "/home/michael"
+  dinosaur:
+    home: "/home/dinosaur"
     install:
       - "3"
     default: "3"
