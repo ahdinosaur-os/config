@@ -14,8 +14,8 @@ then
   sudo sh -s <<EOF
 echo "deb http://debian.saltstack.com/debian jessie-saltstack main" > /etc/apt/sources.list.d/saltstack.list
 wget -O - http://debian.saltstack.com/debian-salt-team-joehealy.gpg.key | apt-key add -
-sudo aptitude update
-sudo aptitude install salt-common
+sudo aptitude update -q
+sudo aptitude install -y salt-common python-apt software-properties-common python-git python-msgpack
 EOF
 fi
 
