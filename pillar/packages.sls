@@ -14,7 +14,6 @@ packages:
   - vlc
   - virtualbox
   - gparted
-  - unetbootin
   - keepassx
   # misc terminal
   - htop
@@ -37,6 +36,17 @@ packages:
   - xul-ext-firebug
   - xul-ext-https-everywhere
   - xul-ext-noscript
+  # dev
+  - git-gui
+  - postgresql
+  - postgresql-client
   # security
   - wireshark
   - nmap
+  {% if grains['host'] == 'urban-sprawl' -%}
+  - firmware-iwlwifi
+  {%- endif %}
+  # misc
+  - vim-gui-common # for xterm_clipboard support
+  - python-dev # for compiling YouCompleteMe vim plugin
+  - cmake # for compiling YouCompleteMe vim plugin
