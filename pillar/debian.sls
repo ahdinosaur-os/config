@@ -1,18 +1,18 @@
 debian:
   release: jessie
   sources: 
-    - src: http://ftp.us.debian.org/debian/
-      dist: jessie
-      comps: ['main', 'contrib', 'non-free']
-    - src: http://security.debian.org/
-      dist: jessie/updates
-      comps: ['main', 'contrib', 'non-free']
-    - src: http://ftp.us.debian.org/debian/
-      dist: jessie-updates
-      comps: ['main', 'contrib', 'non-free']
-    - src: http://ftp.us.debian.org/debian/
-      dist: jessie-backports
-      comps: ['main', 'contrib', 'non-free']
-    - src: http://ftp.us.debian.org/debian/
-      dist: stretch
-      comps: ['main', 'contrib', 'non-free']
+    - url: http://ftp.nz.debian.org/debian/
+      distribution: jessie
+      components: ['main', 'contrib', 'non-free']
+    - url: http://security.debian.org/
+      distribution: jessie/updates
+      components: ['main', 'contrib', 'non-free']
+    - url: http://ftp.nz.debian.org/debian/
+      distribution: jessie-updates
+      components: ['main', 'contrib', 'non-free']
+    - url: http://ftp.nz.debian.org/debian/
+      distribution: jessie-backports
+      components: ['main', 'contrib', 'non-free']
+    - url: http://ftp.nz.debian.org/debian/
+      distribution: stretch
+      components: ['main', 'contrib', 'non-free']
