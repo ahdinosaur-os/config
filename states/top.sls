@@ -11,6 +11,7 @@ base:
     - debian
     - kde
     - nvm
+    - rvm
     - firefox
     - google-chrome
     - heroku-toolbelt
