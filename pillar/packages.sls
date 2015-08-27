@@ -1,6 +1,7 @@
 packages:
   # utils
   - xclip
+  - bluedevil
   # CAD (computer assisted design)
   - openscad
   - kicad
