@@ -46,6 +46,8 @@ zsh:
       bindkey "^P" history-search-backward
       bindkey "^N" history-search-forward 
     zshenv: |
-      source $HOME/.nvm/nvm.sh
       export PYTHONPATH=$HOME/repos/google/caffe/python:$PYTHONPATH
       export PATH="$PATH:$HOME/.rvm/bin"
+    zlogin: |
+      [[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh"
+      [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
