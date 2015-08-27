@@ -40,6 +40,9 @@ packages:
   - git-gui
   - postgresql
   - postgresql-client
+  - postgresql-contrib
+  - postgresql-server-dev-all
+  - pgadmin3
   # security
   - wireshark
   - nmap
