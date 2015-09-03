@@ -32,7 +32,7 @@ vim:
       - 'moll/vim-node'
       - 'ahdinosaur-os/npm.vim'
       - 'kchmck/vim-coffee-script'
-      - 'joshuavial/vim-spec'
+      - 'ahdinosaur/vim-spec#patch-1'
       - 'jgdavey/tslime.vim'
       - 'christoomey/vim-tmux-navigator'
       - 'Lokaltog/vim-distinguished'
