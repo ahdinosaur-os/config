@@ -24,6 +24,7 @@ packages:
   - curl
   - aria2
   - rtorrent
+  - silversearcher-ag
   # mail
   - icedove
   - enigmail
