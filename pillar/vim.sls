@@ -36,6 +36,7 @@ vim:
       - 'jgdavey/tslime.vim'
       - 'christoomey/vim-tmux-navigator'
       - 'Lokaltog/vim-distinguished'
+      - 'editorconfig/editorconfig-vim'
     leader: ","
     background: dark
     colorscheme: candycode
