@@ -38,6 +38,9 @@ packages:
   - xul-ext-firebug
   - xul-ext-https-everywhere
   - xul-ext-noscript
+  # torrents
+  - python-libtorrent
+  - deluge-gtk
   # dev
   - git-gui
   - postgresql
